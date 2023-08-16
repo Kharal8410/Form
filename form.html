@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            background-image: url(https://images.unsplash.com/photo-1618477202872-89cec6f8d62e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        form{
+            
+            margin: 50px;
+            padding: 10px;
+            color: white;
+            width: 400px;
+            background-color: #333;
+            box-shadow: 0 0 10px rgb(255, 254, 254);  
+            
+        
+        
+        }
+        #fName{
+            border-radius: 5px;
+            width: 47.66%;
+        }
+        #lName{
+            
+            border-radius: 5px;
+            width: 47.66%;
+        }
+        #address{
+            border-radius: 5px;
+            width: 100%;
+        }
+        #city{
+            border-radius: 5px;
+            width: 47.66%;
+        }
+        label{
+            font-size: 20px;
+        }
+        #gender{
+            font-size: 15px;
+        }
+        #container {
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+        height: 120vh;
+        
+       
+       }
+       #btn{
+            display: block;
+            padding: 10px;
+            background-color: #00ff3c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            margin:0 auto;
+       }
+       #country{
+        border-radius: 5px;
+        width: 50%;
+       }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <form action="#">
+            <h1 style="text-align: center; ">Survey Form:</h1>
+        <hr>
+        <label for="customerName">Customer Name:</label><br><br>
+        <input type="text" id="fName" placeholder="Enter your first name">
+        <input type="text" id="lName" placeholder="Enter your last name" ><br><br>
+        <label for="address">Address:</label><br><br>
+        <input type="text" id="address" placeholder="Enter your Street Address"><br><br>
+        <input type="text" id="address" placeholder="Enter your Street Address 2"><br><br>
+        <input type="text" id="city" placeholder="Enter your City Name">
+        <input type="text" id="city" placeholder="Enter your State Name"><br><br>
+        <input type="number" id="city" placeholder="Enter your zip code"><br><br>
+        <label for="" >Select country:</label>
+        <select id="country">
+            <option value="Ne">Nepal</option>
+            <option value="AF">Afghanistan</option>
+            <option value="AL">Albania</option>
+            <option value="DZ">Algeria</option>
+            <option value="AD">Andorra</option>
+            <option value="AO">Angola</option>
+            <option value="AO">Angola</option>
+            
+          </select><br><br>
+        <label for="">Contact:</label><br><br>
+        <input type="number" id="city" placeholder="Enter your phone number">
+        <input type="text" id="city" placeholder="Enter your Email"><br><br>
+    
+        <label for="">Personal Details:</label><br>
+    
+        <input type="radio" id="male" name="gender">
+        <label for="" id="gender">Male</label><br>
+        <input type="radio" id="female" name="gender">
+        <label for="" id="gender">Female</label><br>
+        <input type="radio" id="other" name="gender">
+        <label for="" id="gender">Other</label> <br><br>
+    
+        <label for="">Rating 1:</label>
+        <input type="radio" id="bad" name="r1">
+        <label for="" id="gender">Bad</label>
+        <input type="radio" id="good" name="r1" >
+        <label for="" id="gender">Good</label>
+        <input type="radio" id="excellent" name="r1">
+        <label for="" id="gender">Excellent</label> <br><br>
+    
+        <label for="">Rating 2:</label>
+        <input type="radio" id="bad" name="r2">
+        <label for="" id="gender">Bad</label>
+        <input type="radio" id="good" name="r2" >
+        <label for="" id="gender">Good</label>
+        <input type="radio" id="excellent" name="r2">
+        <label for="" id="gender">Excellent</label> <br><br>
+    
+        <label for="">Rating 3:</label>
+        <input type="radio" id="bad" name="r3">
+        <label for="" id="gender">Bad</label>
+        <input type="radio" id="good" name="r3">
+        <label for="" id="gender">Good</label>
+        <input type="radio" id="excellent" name="r3">
+        <label for="" id="gender">Excellent</label> <br><br>
+    
+        <label for="">Rating 4:</label>
+        <input type="radio" id="bad" name="r4" >
+        <label for="" id="gender">Bad</label>
+        <input type="radio" id="good" name="r4" >
+        <label for="" id="gender">Good</label>
+        <input type="radio" id="excellent" name="r4">
+        <label for="" id="gender">Excellent</label> <br><br>
+    
+        <label for="">Rating 5:</label>
+        <input type="radio" id="bad" name="r5">
+        <label for="" id="gender">Bad</label>
+        <input type="radio" id="good" name="r5" >
+        <label for="" id="gender">Good</label>
+        <input type="radio" id="excellent" name="r5">
+        <label for="" id="gender">Excellent</label> <br><br>
+
+        <button type="submit" id="btn">Submit</button>
+    
+        </form>
+    </div>
+</body>
+</html>
